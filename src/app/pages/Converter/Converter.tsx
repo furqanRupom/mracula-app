@@ -83,7 +83,7 @@ const ConverterPage = () => {
                 {dragging ? "Drop here" : "Upload file"}
                 <input type="file" id="uploadFile1" className="hidden" multiple onChange={handleFileSelect} />
                 <p className="text-xs font-medium text-gray-400 mt-2">
-                    PNG, JPG, SVG, WEBP, and GIF are Allowed.
+                    Any file Allowed
                 </p>
                 {!dragging && files.length > 0 && <p className="text-xs font-medium text-gray-400 mt-2">Or choose another file.</p>}
             </label>
