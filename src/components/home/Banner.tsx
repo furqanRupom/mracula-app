@@ -12,7 +12,6 @@ interface CompanyData {
 }
 
 const Banner: React.FC = () => {
-    const [isHovered, setIsHovered] = React.useState(false);
     const data: CompanyData[] = React.useMemo(
         () => [
             {
