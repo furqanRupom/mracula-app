@@ -1,0 +1,10 @@
+.table-style {
+    transform-origin: 50% 50%;
+    transform-style: preserve-3d;
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.25);
+    transition: 2s ease-in-out transform;
+}
+
+.table-style:hover {
+    transform: scale(0.75) rotateY(-30deg) rotateX(70deg) translateZ(4.5rem);
+}
